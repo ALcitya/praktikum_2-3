@@ -54,6 +54,7 @@ main{
     width: 584px;
     height: auto;
     text-align: center;
+    position: relative;
 }
 footer{
     border: 1px solid black;
@@ -86,10 +87,19 @@ textarea{
 .button{
     display: flex;
     justify-content: space-around;
-    width: 300px;
-    margin-left: 150px;
+    width: 600px;
 }
 .button button{
     padding: 5px 10px;
     width: 100px;
+}
+#confirm {
+    color: green;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+.hidden{
+    display: none;
 }

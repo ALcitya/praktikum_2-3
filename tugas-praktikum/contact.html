@@ -16,7 +16,7 @@
             <a href="profile.html"><img src="" alt="">Profil</a>
         </div>
         <div class="home">
-            <a href="halaman1.html">Home</a>
+            <a href="halaman-1.html">Home</a>
         </div>
         <div class="contact-me">
         <a href="contact.html">Contact me</a>
@@ -51,7 +51,7 @@
         </section>
         <section id="section-2">
             <h2>Contact me</h2>
-            <form action="" class="input-user">
+            <form action="" class="input-user" id="myform">
                 <div class="name">
                     <input type="text" placeholder="Your Name">
                 </div>
@@ -63,16 +63,19 @@
                 </div>
                 <div class="area">
                     <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+                    
                 </div>
                 <div class="button">
                     <button type="reset">Cancel</button>
                     <button type="submit">Submit</button>
                 </div>
             </form>
+            <div id="confirm" class="hidden">Formulir terkirim!</div>
         </section>
     </main>
     <footer>
         <h3>&copy; Moch. Ichwan ALif Kurniawan - 22104410063</h3>
     </footer>
+    <script src="src/js/contact.js"></script>
 </body>
 </html>

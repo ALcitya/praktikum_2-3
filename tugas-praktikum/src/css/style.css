@@ -114,3 +114,11 @@ button:active{
 .pop-up{
     height: 150px;
 }
+.description {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.description.show {
+    opacity: 1;
+}
