@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function tanyabilangan(){
+            var bilangan = parseFloat(document.form.bilangan.value);
+            var jenis = " "
+            if(isNaN(bil))
+            {
+                alert("anda belum memasukkan bilangan")
+            }
+            else{
+                if(bil>0){
+                    jenis= "adalah bilangan negatif"
+                }else{
+                    jenis= "adalah nol"
+                }
+                alert(bil+""+jenis)
+            }
+        }
+    </script>
+    <form name="form">
+        <h2>
+            <br> identifikasi bilangan bulat positif / negatif
+        </h2>
+        Masukkan Bilangan: <input type="text" size="11" name="bilangan">
+        <p>
+            <input type="button" value="Tanya" onclick="tanyabilangan()">
+            <input type="reset" value="Ulang">
+        </p>
+    </form>
+</body>
+</html>

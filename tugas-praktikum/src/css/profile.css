@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 784px;
+    height: 200px;
+    background-color: #352F44;
+    color: #FAF0E6;
+    align-items: center;
+    margin-bottom: 0;
+}
+nav div{
+    height: auto;
+}
+input{
+    outline: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+form button{
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    width: 60px;
+}
+main{
+    display: flex;
+    height: auto;
+}
+#section-1{
+    background-image: url(../../resource/img/dragon.jpg); 
+    background-size: cover;
+    width: 200px;
+    height: 500px;
+}
+#section-2{
+    background-color: #5C5470;
+    float: left;
+    color: #FAF0E6;
+    width: 584px;
+    text-align: center;
+}
+ul li{
+    text-align: left;
+}
+.lampiran{
+    margin-left: 160px;
+    width: 100%;
+    padding: 5%;
+}
+footer{
+    border: 1px solid black;
+    width: 784px;
+    height: 100px;
+    background-color: #FAF0E6;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:white
+}
+.foto-buku {
+    width: 200px;
+    margin-left: 200px;
+  }
+  .foto-buku img {
+    border-radius:20px ;
+    width: 100%;
+    height: 250px;
+  }
+
+.action{
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #001B79;
+    color: white;
+}
+button:active{
+    transform: scale(0.9);
+}
+.pop-up{
+    height: 150px;
+}

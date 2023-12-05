@@ -1,0 +1,8 @@
+document.writeln("<pre>")
+document.write("<b> <font size= 5 >")
+document.writeln("SELAMAT DATANG DI JAVASCRIPT")
+document.write("</b> </font>")
+document.write("<i>")
+document.write("Nama saya  Moch. Ichwan Alif K")
+document.write("</i> <br>")
+document.write("Saya berdomisili di Mronjo")

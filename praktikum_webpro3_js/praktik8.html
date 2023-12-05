@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightblue">
+    <h3 align="center">Praktik 8</h3>
+    <script>
+        var hari = new Array("Senin", "Selasa","Rabu","Kamis","Jum'at", "Sabtu","Minggu")
+        var bulan = new Array("Januari", "Februari","Maret","April","Mei", "Juni","Juli","Agustus","September","Oktober","November","Desember")
+        var t = new Date()
+        var hari_ini=hari[t.getDay()-1]
+        var tanggal=t.getDate();
+        var bulan_ini=bulan[t.getMonth()]
+        var tahun = t.getFullYear();
+
+        var jam = t.getHours();
+        var menit = t.getMinutes();
+        var detik = t.getSeconds();
+        document.write("<font size=5 face=arial>")
+        document.write("<b><center>Sekarang adalah hari :" +hari_ini+"Tanggal"+tanggal+" bulan "+bulan_ini+"tahun " +tahun)
+        document.write("<hr width=700>")
+        document.write("</font>")
+        document.write("<font size=3 face=arial >")
+        document.write("<b><center>Jam Sekarang = "+jam+":"+menit+":"+detik)
+        document.write("</font>")
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Praktik 5</title>
+</head>
+<body>
+    <script language="javascript">
+    function tekan(){
+        var jurusanStr = (document.form.jurusan.value)
+        document.form.Ojurusan.value = jurusanStr
+    }    
+    </script>
+    <form name="form">
+        <h1>Praktik Ke 5</h1> <hr>
+        <h3>Masukkan :</h3>
+        Fakultas di UNISBA BALITAR : <Select name="jurusan" size="1">
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Teknologi Informasi">Teknologi Informasi</option>
+            <option value="Teknik">Teknik</option>
+            <option value="Ekonomi">Ekonomi</option>
+            <option value="Pertanian & Peternakan">Pertanian & Peternakan</option>
+            <option value="Sospol">Sospol</option>
+            <option value="Hukum">Hukum</option>
+            <option value="Agama ISlam">Agama ISlam</option>
+        </Select>
+        <p>
+            <input type="button" value="kirim" onclick="tekan()">
+            <input type="reset" value="ulang">
+        </p>
+        <h3>output jurusan</h3>
+        <input type="text" name="Ojurusan" size="30">
+    </form>
+</body>
+</html>
