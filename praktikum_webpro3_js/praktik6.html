@@ -8,19 +8,19 @@
 <body>
     <script>
         function tanyabilangan(){
-            var bilangan = parseFloat(document.form.bilangan.value);
+            var bil = parseFloat(document.form.bilangan.value);
             var jenis = " "
             if(isNaN(bil))
             {
                 alert("anda belum memasukkan bilangan")
             }
             else{
-                if(bil>0){
+                if(bil<0){
                     jenis= "adalah bilangan negatif"
                 }else{
-                    jenis= "adalah nol"
+                    jenis= "adalah bilangan positif"
                 }
-                alert(bil+""+jenis)
+                alert(bil+" "+jenis)
             }
         }
     </script>
